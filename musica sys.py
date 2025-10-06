@@ -1,6 +1,6 @@
 import sys
 import time
-
+import random 
 def type_text(text, delay=0.06):
     """Digita o texto letra por letra com delay para ritmo."""
     for char in text:
@@ -80,7 +80,7 @@ def sing_song():
     
     for line in lyrics:
         type_text(line, delay=0.06)  # Delay ajustado pro BPM 112
-        time.sleep(0.3)  # Pausa menor entre linhas pro flow
+        time.sleep(random.uniform(0.2, 0.5))  # Pausa menor entre linhas pro flow
     
     print("\nFim da música! 👏 Se quiser mais rápido/lento, muda o delay.")
     print("WAKANDA FOREVER! 💪")  # Teu grito de guerra no final!
