@@ -1,13 +1,13 @@
-# Meus Projetos Wakanda 🚀
+Meus Projetos Wakanda 🚀
 
-Bem-vindo ao meu portfólio! Aqui eu compartilho scripts e experimentos em Python, focando em automação e ethical hacking. Comecei do zero no Debian low-end, e tô subindo pro topo.
+Bem-vindo ao meu portfólio! Desenvolvedor de 16 anos no Debian low-end, focando Python e ethical hacking. Comecei com scripts simples e tô evoluindo dia a dia.
 
-## Projetos Destaque
-- **[Música Cantora](musica sys.py)**: Script que "canta" letras de músicas letra por letra no terminal, com delay pro ritmo. Baseado em Joy Crookes – prova de loops e time.sleep.
+## Projetos
+- **[Cantor de Música V2](musica sys.py)**: Script que "canta" "Feet Don't Fail Me Now" da Joy Crookes, letra por letra. V1: Delay fixo. V2: Pausas randomizadas com `random.uniform(0.2, 0.5)` pra flow humano.
 
-## Skills
-- Python (básico: strings, loops, funções)
-- Git/GitHub (versionamento diário)
-- Em aprendizado: Ethical Hacking (TryHackMe)
+## Skills em Crescimento
+- Python: Strings, loops, funções, random module (freeCodeCamp).
+- Git: Commits diários, merge de branches.
+- Em aprendizado: Ethical Hacking via TryHackMe.
 
-Contribua ou dê stars!
+Contribua, dê stars ou ideias!
