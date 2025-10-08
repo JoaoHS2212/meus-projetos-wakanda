@@ -29,6 +29,7 @@ def sing_song():
         "I got to stand my ground",
         "And though I'm down for trying",
         "I am better in denial",
+
         "So I hush, don't make a sound",
         "Feet, don't fail me now",
         "I got to stand my ground",
