@@ -1,13 +1,14 @@
-Meus Projetos Wakanda 🚀
+# Meus Projetos Wakanda 🚀
 
 Bem-vindo ao meu portfólio! Desenvolvedor de 16 anos no Debian low-end, focando Python e ethical hacking. Comecei com scripts simples e tô evoluindo dia a dia.
 
 ## Projetos
 - **[Cantor de Música V2](musica sys.py)**: Script que "canta" "Feet Don't Fail Me Now" da Joy Crookes, letra por letra. V1: Delay fixo. V2: Pausas randomizadas com `random.uniform(0.2, 0.5)` pra flow humano.
+- **[Cifrador Simples](cifrador_simples.py)**: Cifra palavras com shift cipher (alphabet + %26). Testa 'waka' virando 'ndnd' com shift=3 – base pro ethical hacking (freeCodeCamp inspiração).
 
 ## Skills em Crescimento
-- Python: Strings, loops, funções, random module (freeCodeCamp).
-- Git: Commits diários, merge de branches.
+- Python: Strings, loops, funções, random module, index e % (freeCodeCamp).
+- Git: Commits diários, branches, merge fast-forward.
 - Em aprendizado: Ethical Hacking via TryHackMe.
 
 Contribua, dê stars ou ideias!
