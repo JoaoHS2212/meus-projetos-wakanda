@@ -11,3 +11,4 @@ for char in palavra:
     else:
         cifrado += char
 print(f'Cifrado: {cifrado}')
+print("Wakanda PR Test!")
