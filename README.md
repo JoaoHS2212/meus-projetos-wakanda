@@ -5,7 +5,8 @@ Bem-vindo ao meu portfólio! Desenvolvedor de 16 anos no Debian low-end, focando
 ## Projetos
 - **[Cantor de Música V2](musica sys.py)**: Script que "canta" "Feet Don't Fail Me Now" da Joy Crookes, letra por letra. V1: Delay fixo. V2: Pausas randomizadas com `random.uniform(0.2, 0.5)` pra flow humano.
 - **[Cifrador Simples](cifrador_simples.py)**: Cifra palavras com shift cipher (alphabet + %26). Testa 'waka' virando 'ndnd' com shift=3 – base pro ethical hacking (freeCodeCamp inspiração).
-
+- **[Cifrador Bidirecional](cifrador_simples.py)**: Cifra/decifra palavras com shift cipher (alphabet + %26). Teste: 'waka' <-> 'ndnd'. Base pro hacking (freeCodeCamp + TryHackMe).
+- 
 ## Skills em Crescimento
 - Python: Strings, loops, funções, random module, index e % (freeCodeCamp).
 - Git: Commits diários, branches, merge fast-forward.
