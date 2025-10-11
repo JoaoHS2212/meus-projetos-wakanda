@@ -4,7 +4,7 @@ shift = 3
 def cifrar(palavra, shift=3):
     cifrado = ''
     for char in palavra:
-        if char in alphabet:
+        if char in alphabet:            
             indice = alphabet.index(char)
             novo_indice = (indice + shift) % 26
             cifrado += alphabet[novo_indice]
