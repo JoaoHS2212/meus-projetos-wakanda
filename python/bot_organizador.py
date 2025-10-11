@@ -1,8 +1,8 @@
 import os
 import shutil
 
-pasta = '.'  # Pasta atual, ~/codes git – tem teus .py pra testar
-subpasta = 'python'  # Nome da subpasta pra .py
+pasta = '.'  # Pasta atual, ~/codes git
+subpasta = 'python'
 
 # Cria a subpasta se não existir
 if not os.path.exists(os.path.join(pasta, subpasta)):
@@ -11,7 +11,7 @@ if not os.path.exists(os.path.join(pasta, subpasta)):
 
 movidos = 0
 for arquivo in os.listdir(pasta):
-    if arquivo.endswith('.py') and not arquivo.startswith('.'):  # Só .py, ignora ocultos como .git
+    if arquivo.endswith('.py') and not arquivo.startswith('.'):
         origem = os.path.join(pasta, arquivo)
         destino = os.path.join(pasta, subpasta, arquivo)
         shutil.move(origem, destino)
@@ -19,6 +19,6 @@ for arquivo in os.listdir(pasta):
         movidos += 1
 
 if movidos == 0:
-    print('Nenhum .py encontrado na pasta. Adiciona um teste e roda de novo!')
+    print('Nenhum .py encontrado. Adiciona um teste!')
 else:
     print(f'{movidos} arquivos .py movidos com sucesso!')
